@@ -1,0 +1,16 @@
+2024/11/12-15:42:02.987 1d04 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/12-15:42:02.988 1d04 Recovering log #1124
+2024/11/12-15:42:03.097 1d04 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001124.log 
+2024/11/12-15:42:04.867 31d0 Level-0 table #1134: started
+2024/11/12-15:42:04.896 31d0 Level-0 table #1134: 461384 bytes OK
+2024/11/12-15:42:04.897 31d0 Delete type=0 #1124
+2024/11/12-15:42:04.898 31d0 Manual compaction at level-0 from '\x00\xc5\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc6\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/12-15:42:05.003 1d04 Compacting 1@1 + 6@2 files
+2024/11/12-15:42:05.201 1d04 Generated table #1135@1: 84609 keys, 2234204 bytes
+2024/11/12-15:42:05.371 1d04 Generated table #1136@1: 97727 keys, 2248815 bytes
+2024/11/12-15:42:05.542 1d04 Generated table #1137@1: 73871 keys, 2359398 bytes
+2024/11/12-15:42:05.766 1d04 Generated table #1138@1: 40044 keys, 2220768 bytes
+2024/11/12-15:42:06.015 1d04 Generated table #1139@1: 87071 keys, 2240318 bytes
+2024/11/12-15:42:06.230 1d04 Generated table #1140@1: 113773 keys, 2218372 bytes
+2024/11/12-15:42:06.230 1d04 Compacted 1@1 + 6@2 files => 13521875 bytes
+2024/11/12-15:42:06.231 1d04 compacted to: files[ 0 0 6 0 0 0 0 ]

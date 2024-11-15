@@ -1,0 +1,11 @@
+2024/11/12-15:44:38.943 3abc Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/12-15:44:38.944 3abc Recovering log #1133
+2024/11/12-15:44:39.009 3abc Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001133.log 
+2024/11/12-15:44:39.010 3abc Delete type=2 #1126
+2024/11/12-15:44:39.010 3abc Delete type=2 #1127
+2024/11/12-15:44:39.010 3abc Delete type=2 #1128
+2024/11/12-15:44:39.010 3abc Delete type=2 #1129
+2024/11/12-15:44:39.010 3abc Delete type=2 #1130
+2024/11/12-15:44:39.010 3abc Delete type=2 #1131
+2024/11/12-15:44:39.010 3abc Delete type=2 #1134
+2024/11/12-15:44:40.936 29c0 Manual compaction at level-0 from '\x00\xc6\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc7\x00\x00\x00' @ 0 : 0; will stop at (end)
