@@ -663,7 +663,7 @@ client.on("message", async msg => {
                         client.sendMessage(msg.from, orders);
                     } else if (msg.body === "A") {
                         set_etapa(msg.from, 9).catch(console.dir);
-                        msg_aux = `✅\tPedidos \n${data}\nFrete:\tR$ ${result.frete.toFixed(precision)}\nTotal:\tR$ ${total.toFixed(precision)}\n✅\tPagamento:\n${option_pag}\n✅\tEndereço:\nR. ${result.rua} Nº ${result.num}\n${result.bairro} - ${result.city}, PE\n✅\tCliente:\n${result.name}\n\n${edition}\n${returne}\n​​${confirmation}\n `;
+                        msg_aux = `✅\tPedidos \n${data}\nFrete:\tR$ ${result.frete.toFixed(precision)}\nTotal:\tR$ ${total.toFixed(precision)}\n✅\tPagamento:\n${option_pag}\n✅\tEndereço:\nR. ${result.rua} Nº ${result.num}\n${result.bairro} - ${result.city}, PE\n✅\tCliente:\n${result.name}\n✅\tNumero: \n${msg.from.match(/\d+/)[0]}\n\n${edition}\n${returne}\n​​${confirmation}\n `;
                         client.sendMessage(msg.from, msg_aux);
                     } else {
                         client.sendMessage(msg.from, option_inval);
@@ -686,7 +686,7 @@ client.on("message", async msg => {
                         option_pag = pag_type_pix;
                     }
                     if (msg.body === "A") {
-                        msg_aux = `✅\tPedidos Em fila de preparação\n${data}\nFrete:\tR$ ${result.frete.toFixed(precision)}\nTotal:\tR$ ${total.toFixed(precision)}\n✅\tPagamento:\n${option_pag}\n✅\tEndereço:\nR. ${result.rua} Nº ${result.num}\n${result.bairro} - ${result.city}, PE\n✅\tCliente:\n${result.name}\n\nFinalizado✅\nAvisaremos quando o pedido sair pra entrega 🛵\n\n\t\t${end_atendiment}​`;
+                        msg_aux = `✅\tPedidos Em fila de preparação\n${data}\nFrete:\tR$ ${result.frete.toFixed(precision)}\nTotal:\tR$ ${total.toFixed(precision)}\n✅\tPagamento:\n${option_pag}\n✅\tEndereço:\nR. ${result.rua} Nº ${result.num}\n${result.bairro} - ${result.city}, PE\n✅\tCliente:\n${result.name}\n✅\tNumero: \n${msg.from.match(/\d+/)[0]}\n\nFinalizado✅\nAvisaremos quando o pedido sair pra entrega 🛵\n\n\t\t${end_atendiment}​`;
                         client.sendMessage(msg.from, msg_aux);
                         await collection_orders.insertOne(result);
                         await collection.deleteOne(filter);

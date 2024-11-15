@@ -1,11 +1,30 @@
-2024/11/12-15:44:38.943 3abc Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/12-15:44:38.944 3abc Recovering log #1133
-2024/11/12-15:44:39.009 3abc Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001133.log 
-2024/11/12-15:44:39.010 3abc Delete type=2 #1126
-2024/11/12-15:44:39.010 3abc Delete type=2 #1127
-2024/11/12-15:44:39.010 3abc Delete type=2 #1128
-2024/11/12-15:44:39.010 3abc Delete type=2 #1129
-2024/11/12-15:44:39.010 3abc Delete type=2 #1130
-2024/11/12-15:44:39.010 3abc Delete type=2 #1131
-2024/11/12-15:44:39.010 3abc Delete type=2 #1134
-2024/11/12-15:44:40.936 29c0 Manual compaction at level-0 from '\x00\xc6\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc7\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/15-15:37:37.549 1a24 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/15-15:37:37.550 1a24 Recovering log #1199
+2024/11/15-15:37:37.856 1a24 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001199.log 
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1192
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1193
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1194
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1195
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1196
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1197
+2024/11/15-15:37:37.857 1a24 Delete type=2 #1200
+2024/11/15-15:37:41.768 34b4 Level-0 table #1209: started
+2024/11/15-15:37:41.803 34b4 Level-0 table #1209: 502160 bytes OK
+2024/11/15-15:37:41.804 34b4 Delete type=0 #1199
+2024/11/15-15:37:41.811 34b4 Manual compaction at level-0 from '\x00\xca\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xcb\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/15-15:37:41.983 34b4 Compacting 1@1 + 6@2 files
+2024/11/15-15:37:42.411 34b4 Generated table #1210@1: 84188 keys, 2232852 bytes
+2024/11/15-15:37:43.106 34b4 Generated table #1211@1: 97402 keys, 2248480 bytes
+2024/11/15-15:37:43.529 34b4 Generated table #1212@1: 83251 keys, 2328778 bytes
+2024/11/15-15:37:43.826 34b4 Generated table #1213@1: 39472 keys, 2267295 bytes
+2024/11/15-15:37:44.164 34b4 Generated table #1214@1: 94700 keys, 2250254 bytes
+2024/11/15-15:37:44.497 34b4 Generated table #1215@1: 108896 keys, 2126852 bytes
+2024/11/15-15:37:44.497 34b4 Compacted 1@1 + 6@2 files => 13454511 bytes
+2024/11/15-15:37:44.499 34b4 compacted to: files[ 0 0 6 0 0 0 0 ]
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1201
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1202
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1203
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1204
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1205
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1206
+2024/11/15-15:37:44.500 34b4 Delete type=2 #1209
