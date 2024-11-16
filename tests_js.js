@@ -161,6 +161,3 @@ console.log(`Máximo: ${max}`);
 // Encontrar o valor mínimo
 const min = Math.min(...numeros);
 console.log(`Mínimo: ${min}`);
-const min = Math.min(...numeros);
-console.log(`Mínimo: ${min}`);
-
