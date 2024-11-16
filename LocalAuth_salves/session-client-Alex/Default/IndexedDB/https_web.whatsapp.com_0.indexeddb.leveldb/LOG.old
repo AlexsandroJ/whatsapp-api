@@ -1,16 +1,4 @@
-2024/11/15-15:33:33.151 36d4 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/15-15:33:33.152 36d4 Recovering log #1190
-2024/11/15-15:33:33.189 36d4 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001190.log 
-2024/11/15-15:33:38.326 36d4 Level-0 table #1200: started
-2024/11/15-15:33:38.339 36d4 Level-0 table #1200: 137306 bytes OK
-2024/11/15-15:33:38.340 36d4 Delete type=0 #1190
-2024/11/15-15:33:38.343 36d4 Manual compaction at level-0 from '\x00\xc9\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xca\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/11/15-15:33:38.663 106c Compacting 1@1 + 6@2 files
-2024/11/15-15:33:39.139 106c Generated table #1201@1: 84188 keys, 2232096 bytes
-2024/11/15-15:33:39.466 106c Generated table #1202@1: 97455 keys, 2248565 bytes
-2024/11/15-15:33:39.821 106c Generated table #1203@1: 82030 keys, 2331250 bytes
-2024/11/15-15:33:40.111 106c Generated table #1204@1: 39902 keys, 2262739 bytes
-2024/11/15-15:33:40.462 106c Generated table #1205@1: 95972 keys, 2248953 bytes
-2024/11/15-15:33:40.767 106c Generated table #1206@1: 106473 keys, 2078742 bytes
-2024/11/15-15:33:40.767 106c Compacted 1@1 + 6@2 files => 13402345 bytes
-2024/11/15-15:33:40.768 106c compacted to: files[ 0 0 6 0 0 0 0 ]
+2024/11/15-16:30:52.020 9f8 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/15-16:30:52.021 9f8 Recovering log #1217
+2024/11/15-16:30:52.137 9f8 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001217.log 
+2024/11/15-16:30:57.090 74c Manual compaction at level-0 from '\x00\xcc\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xcd\x00\x00\x00' @ 0 : 0; will stop at (end)

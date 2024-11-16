@@ -404,7 +404,7 @@ client.on("message", async msg => {
         if (result) {
             console.log(`Cliente ${msg.from} em Atendimento`);
             switch (result.etapa) {
-                case 1:
+                case 1://Opções de cidade
                     data = `✅\tSelecione Sua Cidade:\n\n`;
                     x = 0;
                     citys.forEach(element => {
@@ -442,7 +442,7 @@ client.on("message", async msg => {
                         client.sendMessage(msg.from, msg_aux);
                     }
                     break;
-                case 2:
+                case 2://Opções de bairro
                     x = 0;
                     data = `✅\tSelecione Seu Bairro:\n`;
                     cidadesDePE[result.city].forEach(element => {
@@ -476,15 +476,14 @@ client.on("message", async msg => {
                         client.sendMessage(msg.from, option_inval);
                     }
                     break;
-                case 3:
-
-                    if (msg.body.length > 1) {
+                case 3://Opções de numero
+                    if (!(msg.body === "A") && !(msg.body === "O")) {
                         msg_aux = `✅\tNumero:\n\t${msg.body}\n\n${edition}​\n${confirmation}\n`;
                         update_num(msg.from, msg.body).catch(console.dir);
                         client.sendMessage(msg.from, msg_aux);
                     }
                     if (msg.body === "A") {
-                        msg_aux = `✅\tDigite APENAS o nome da sua Rua:\n`;
+                        msg_aux = `✅\tDigite o nome da sua Rua:\n`;
                         set_etapa(msg.from, 4).catch(console.dir);
                         client.sendMessage(msg.from, msg_aux);
                     } else if (msg.body === "O") {
@@ -492,10 +491,9 @@ client.on("message", async msg => {
                         client.sendMessage(msg.from, msg_aux);
                     }
                     break;
-                case 4:
-
+                case 4://Opções Nome da rua
                     if (!(msg.body === "A") && !(msg.body === "O")) {
-                        msg_aux = `✅\tRua:\n\t${msg.body}\n\n${edition}​\n${confirmation}\n`;
+                        msg_aux = `✅\t${msg.body}\n\n${edition}​\n${confirmation}\n`;
                         update_rua(msg.from, msg.body).catch(console.dir);
                         client.sendMessage(msg.from, msg_aux);
                     }
@@ -504,7 +502,7 @@ client.on("message", async msg => {
                         calc_frete(result).catch(console.dir);
                         client.sendMessage(msg.from, get_the_name);
                     } else if (msg.body === "O") {
-                        msg_aux = `✅\tDigite APENAS o nome da sua Rua:\n`;
+                        msg_aux = `✅\tDigite o nome da sua Rua:\n`;
                         client.sendMessage(msg.from, msg_aux);
                     }
                     break;
@@ -697,7 +695,7 @@ client.on("message", async msg => {
                         client.sendMessage(msg.from, option_inval);
                     }
                     break;
-                case 10:
+                case 10://Opções pesonal_service
                     if (msg.body === "A") {
                         set_etapa(msg.from, 1).catch(console.dir);
                         await collection.deleteOne(filter);
