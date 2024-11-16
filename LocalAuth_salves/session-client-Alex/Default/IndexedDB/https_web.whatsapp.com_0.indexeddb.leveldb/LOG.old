@@ -1,4 +1,4 @@
-2024/11/15-16:30:52.020 9f8 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/15-16:30:52.021 9f8 Recovering log #1217
-2024/11/15-16:30:52.137 9f8 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001217.log 
-2024/11/15-16:30:57.090 74c Manual compaction at level-0 from '\x00\xcc\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xcd\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/16-13:16:25.856 2664 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/16-13:16:25.944 2664 Recovering log #1226
+2024/11/16-13:16:25.994 2664 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001226.log 
+2024/11/16-13:16:34.408 5488 Manual compaction at level-0 from '\x00\xce\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xcf\x00\x00\x00' @ 0 : 0; will stop at (end)

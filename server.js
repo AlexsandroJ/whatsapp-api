@@ -69,9 +69,8 @@ if (horas >= 5 && horas < 12) {
 
 const company_name = "CU";
 let msg_initial = `🟢​\t${saudacao}\n\nBem vindo ao atendimento ${company_name}\n`;
-const get_the_name = `✏️ ​Informe o nome do Cliente`;
 
-const msg_inicial_cardapio = `Seja Bem vindo a pizzaria ${company_name}\n\n\tCardapio:\n`;
+const msg_inicial_cardapio = `Seja Bem vindo a pizzaria ${company_name}\n\nDigite uma ou varias opções\n\n\tCardapio:\n`;
 msg_aux = msg_inicial_cardapio;
 x = 0;
 y = 0;
@@ -110,6 +109,7 @@ const msg_dell_orders = `❌\t​Pedidos Vazios\n\nEncerrar Atendimento ?\n\n${r
 const end_atendiment = `​👍 Atendimento encerrado\n\n${despedida}`;
 const dell_confirmation = `❌\tPedidos Exluido\n${end_atendiment}`;
 
+const get_the_name = `✏️ ​Informe o nome do Cliente`;
 const text_tab = `\n`;
 
 require("dotenv").config()
