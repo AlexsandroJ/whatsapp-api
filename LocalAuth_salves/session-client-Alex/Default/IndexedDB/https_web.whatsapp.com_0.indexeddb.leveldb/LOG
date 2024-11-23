@@ -1,46 +1,17 @@
-2024/11/16-13:20:08.645 1658 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/16-13:20:08.646 1658 Recovering log #1226
-2024/11/16-13:20:08.858 1658 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001226.log 
-2024/11/16-13:20:12.414 e3c Level-0 table #1237: started
-2024/11/16-13:20:12.451 e3c Level-0 table #1237: 470136 bytes OK
-2024/11/16-13:20:12.452 e3c Delete type=0 #1226
-2024/11/16-13:20:12.453 e3c Manual compaction at level-0 from '\x00\xcf\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xd0\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/11/16-13:20:12.647 5a44 Compacting 1@1 + 7@2 files
-2024/11/16-13:20:13.143 5a44 Generated table #1238@1: 84102 keys, 2233183 bytes
-2024/11/16-13:20:13.466 5a44 Generated table #1239@1: 97221 keys, 2249013 bytes
-2024/11/16-13:20:13.816 5a44 Generated table #1240@1: 89565 keys, 2303618 bytes
-2024/11/16-13:20:14.061 5a44 Generated table #1241@1: 35413 keys, 2290993 bytes
-2024/11/16-13:20:14.300 5a44 Generated table #1242@1: 87707 keys, 2248336 bytes
-2024/11/16-13:20:14.636 5a44 Generated table #1243@1: 116214 keys, 2269984 bytes
-2024/11/16-13:20:14.692 5a44 Generated table #1244@1: 6849 keys, 134874 bytes
-2024/11/16-13:20:14.692 5a44 Compacted 1@1 + 7@2 files => 13730001 bytes
-2024/11/16-13:20:14.703 5a44 compacted to: files[ 0 0 7 0 0 0 0 ]
-2024/11/16-13:42:28.452 54c0 Level-0 table #1246: started
-2024/11/16-13:42:28.503 54c0 Level-0 table #1246: 1028410 bytes OK
-2024/11/16-13:42:28.550 54c0 Delete type=2 #1228
-2024/11/16-13:42:28.550 54c0 Delete type=2 #1229
-2024/11/16-13:42:28.550 54c0 Delete type=2 #1230
-2024/11/16-13:42:28.550 54c0 Delete type=2 #1231
-2024/11/16-13:42:28.550 54c0 Delete type=2 #1232
-2024/11/16-13:42:28.551 54c0 Delete type=2 #1233
-2024/11/16-13:42:28.551 54c0 Delete type=2 #1234
-2024/11/16-13:42:28.551 54c0 Delete type=0 #1236
-2024/11/16-13:42:28.551 54c0 Delete type=2 #1237
-2024/11/16-13:42:32.277 54c0 Compacting 1@1 + 7@2 files
-2024/11/16-13:42:32.593 54c0 Generated table #1247@1: 84217 keys, 2233554 bytes
-2024/11/16-13:42:32.799 54c0 Generated table #1248@1: 97159 keys, 2249104 bytes
-2024/11/16-13:42:33.054 54c0 Generated table #1249@1: 91113 keys, 2297976 bytes
-2024/11/16-13:42:33.298 54c0 Generated table #1250@1: 34807 keys, 2294939 bytes
-2024/11/16-13:42:33.664 54c0 Generated table #1251@1: 84562 keys, 2246767 bytes
-2024/11/16-13:42:33.961 54c0 Generated table #1252@1: 116167 keys, 2268905 bytes
-2024/11/16-13:42:33.984 54c0 Generated table #1253@1: 11487 keys, 224194 bytes
-2024/11/16-13:42:33.984 54c0 Compacted 1@1 + 7@2 files => 13815439 bytes
-2024/11/16-13:42:33.996 54c0 compacted to: files[ 0 0 7 0 0 0 0 ]
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1238
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1239
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1240
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1241
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1242
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1243
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1244
-2024/11/16-13:42:33.997 54c0 Delete type=2 #1246
+2024/11/16-18:15:18.154 2b64 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/16-18:15:18.236 2b64 Recovering log #1245
+2024/11/16-18:15:18.423 2b64 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001245.log 
+2024/11/16-18:15:23.735 1ef8 Level-0 table #1256: started
+2024/11/16-18:15:23.775 1ef8 Level-0 table #1256: 841268 bytes OK
+2024/11/16-18:15:23.776 1ef8 Delete type=0 #1245
+2024/11/16-18:15:23.790 1ef8 Manual compaction at level-0 from '\x00\xd0\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xd1\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/16-18:15:23.950 694 Compacting 1@1 + 7@2 files
+2024/11/16-18:15:24.150 694 Generated table #1257@1: 84894 keys, 2233159 bytes
+2024/11/16-18:15:24.595 694 Generated table #1258@1: 97137 keys, 2248949 bytes
+2024/11/16-18:15:24.944 694 Generated table #1259@1: 92206 keys, 2294283 bytes
+2024/11/16-18:15:25.201 694 Generated table #1260@1: 34759 keys, 2300946 bytes
+2024/11/16-18:15:25.553 694 Generated table #1261@1: 84926 keys, 2247203 bytes
+2024/11/16-18:15:25.812 694 Generated table #1262@1: 116001 keys, 2267454 bytes
+2024/11/16-18:15:25.875 694 Generated table #1263@1: 12059 keys, 235878 bytes
+2024/11/16-18:15:25.875 694 Compacted 1@1 + 7@2 files => 13827872 bytes
+2024/11/16-18:15:25.876 694 compacted to: files[ 0 0 7 0 0 0 0 ]

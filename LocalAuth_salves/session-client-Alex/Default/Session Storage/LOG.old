@@ -1,3 +1,6 @@
-2024/11/16-13:16:30.637 5794 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\Session Storage/MANIFEST-000001
-2024/11/16-13:16:30.692 5794 Recovering log #3
-2024/11/16-13:16:30.693 5794 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\Session Storage/000003.log 
+2024/11/16-13:20:08.764 590 Reusing MANIFEST D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\Session Storage/MANIFEST-000001
+2024/11/16-13:20:08.765 590 Recovering log #3
+2024/11/16-13:20:08.766 590 Reusing old log D:\Projetos\whatsapp-api\LocalAuth_salves\session-client-Alex\Default\Session Storage/000003.log 
+2024/11/16-13:20:16.271 5a44 Level-0 table #5: started
+2024/11/16-13:20:16.278 5a44 Level-0 table #5: 18962 bytes OK
+2024/11/16-13:20:16.279 5a44 Delete type=0 #3
