@@ -119,7 +119,7 @@ const { MongoClient } = require("mongodb");
 // Dados de conexão
 const username = "admin";
 const password = "admin";
-const cluster = "localhost:27017";
+const cluster = "zapiup.sytes.net:27017";
 const dbname = "client_adm";
 const collectionName = "clients";
 const collectionName_orders = "orders";
