@@ -356,6 +356,9 @@ const { Client, LocalAuth } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 //Criação de cliente e strategia de salvamento local
 const client = new Client({
+    puppeteer: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    },
     authStrategy: new LocalAuth({
         dataPath: 'LocalAuth_salves',
         clientId: "client-Alex"
